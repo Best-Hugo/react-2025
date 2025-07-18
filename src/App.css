@@ -1,0 +1,37 @@
+/*html {scroll-behavior: smooth;} // Oropiedad cuando se utiliza el diseño onlipage.*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'Encabezado';
+    src: url('./assets/font/TheNumberOfTheBeast/TheNumberOfTheBeast.ttf');
+}
+@font-face {
+    font-family: 'Pie';
+    src: url('./assets/font/AMatterOfLifeAndDeathFont/AMatterOfLifeAndDeathFont.ttf');
+}
+@font-face {
+    font-family: 'Nav';
+    src: url('./assets/font/VisionsOfTheBeastFont/VisionsOfTheBeastFont.ttf');
+}
+@font-face {
+    font-family: 'Titulo';
+    src: url('./assets/font/DeathOnTheRoad/DeathOnTheRoad.ttf');
+}
+@font-face {
+    font-family: 'Descripcion';
+    src: url('./assets/font/TheSoundhouseTapes/TheSoundhouseTapes.TTF');
+}
+@font-face {
+    font-family: 'Date';
+    src: url('./assets/font/WordTour2025/WordTour2025.ttf');
+}
+#root {
+    /*background-color: #242424;*/
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

@@ -1,0 +1,25 @@
+main>section {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*
+[id] {
+    scroll-margin-top: 29.8ex;
+}
+.slide { // Estilos para el diseño onlipage.
+    
+    min-height: 80dvh;
+    padding: 0 2rem;
+    color: black;
+}
+    
+.slide:first-child{
+    background-image: radial-gradient(ellipse at center left, orangered, orange, violet, yellow);
+}
+.slide:nth-child(even){
+    background-image: radial-gradient(ellipse at center, orangered, orange, violet, yellow);
+}
+.slide:last-child {
+    background-image: radial-gradient(ellipse at center right, orangered, orange, violet, yellow);
+}
+    */

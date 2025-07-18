@@ -1,0 +1,17 @@
+footer {
+    background-image: linear-gradient(to right bottom, yellow, violet, orange, orangered);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+    color: white;
+    font: italic 15px 'Pie';
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>p>img {
+    margin-bottom: -4px;
+    width: 18px;
+    height: 18px;
+}

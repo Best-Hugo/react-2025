@@ -1,0 +1,19 @@
+section#inicio {/*border: 1px solid black;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2dvh;
+    padding-top: 20px;
+    background-image: radial-gradient(ellipse at center left, orangered, orange, violet, yellow);
+}
+section#inicio h1 { 
+    font: bolder 45px 'Titulo';
+    text-align: center;
+}
+section#inicio .description { 
+    font: bold 34px 'Descripcion';
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

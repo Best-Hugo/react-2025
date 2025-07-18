@@ -1,0 +1,26 @@
+header {
+    /*position: sticky;*/
+    /*top: 0;*/
+    background-image: linear-gradient(to right top, yellow, violet, orange, orangered);
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+header>div {
+    padding: 30px 25px 0px 25px;
+    display: flex;
+    grid-template-columns: auto 1fr;
+}
+
+header>div>img {
+    width: 128px;
+    height: 72px;
+}
+header>div>h1{
+    width: 100%;
+    font: bold 53px "Encabezado";
+    line-height: 75px;
+    text-shadow: 5px 5px 5px red;
+    color: white;
+}

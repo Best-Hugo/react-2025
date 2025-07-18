@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+}
